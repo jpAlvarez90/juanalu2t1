@@ -1,5 +1,5 @@
 let url = window.location.href
-let swRedirect = 'juanalu2t1/sw_gp.js'
+let swRedirect = '/juanalu2t1/sw_gp.js'
 
 if (navigator.serviceWorker) {
     if (url.includes('localhost')) swRedirect = '/sw.js'
