@@ -25,8 +25,8 @@ self.addEventListener("install",(event) =>{
         return cache.addAll([
             "/juanalu2t1",
             "/juanalu2t1/index.html",
-            "/juanalu2t1img/utez1.png",
-            "/juanalu2t1img/utez2.png",
+            "/juanalu2t1/img/utez1.png",
+            "/juanalu2t1/img/utez2.png",
             "/juanalu2t1/img/utez3.png",
             "/juanalu2t1/img/utez4.png",
             "/juanalu2t1/js/app.js"
