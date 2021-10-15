@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">UTEZ News</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DATIC</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DACEA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">DATEFIs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="principal">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    Universidad Tecnologica Emiliano Zapata del Estado de Morelos
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/utez1.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/utez2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/utez3.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/img/utez4.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bg-warning m-2 rounded" id="suscription">
+            <div class="p-4 col-8">
+                Suscribete a nuestras notificaciones y no te pierdas de nada
+            </div>
+            <div class="d-flex justify-content-center py-4 col-4">
+                <button class="btn btn-info text-white"> Suscribete! </button>
+            </div>
+        </div>
+
+        <div class="row p-2" id="notices">
+            <div class="col-12 py-2 border-bottom border-success">
+                <img src="/img/utez1.png" class="img-fluid" alt="utez1">
+                <h1 class="text-center">Titulo de la noticia</h1>
+                <div class="row">
+                    <div class="col-6 text-muted text-center">
+                        27/09/2021
+                    </div>
+                    <div class="col-6 text-info text-center">
+                        #Hashtag
+                    </div>
+                </div>
+                <div class="fst-italic text-justify">
+                    Texto de prueba en una imagen en la descripcion de la noticia
+                </div>
+                <div class="d-grid mt-2">
+                    <a class="btn btn-success btn-seguir" href="">Seguir leyendo</a>
+                </div>
+            </div>
+            <div class="col-12 py-2 border-bottom border-success">
+                <img src="/img/utez2.png" class="img-fluid" alt="utez1">
+                <h1 class="text-center">Titulo de la noticia</h1>
+                <div class="row">
+                    <div class="col-6 text-muted text-center">
+                        27/09/2021
+                    </div>
+                    <div class="col-6 text-info text-center">
+                        #Hashtag
+                    </div>
+                </div>
+                <div class="fst-italic text-justify">
+                    Texto de prueba en una imagen en la descripcion de la noticia
+                </div>
+                <div class="d-grid mt-2">
+                    <a class="btn btn-success btn-seguir" href="">Seguir leyendo</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="" class="btn btn-light btn-black">Ver mas...</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="notice" class="py-2">
+        <div class="row">
+            <div class="col-12 text-center">
+                <a href="" class="btn btn-light btn-black btn-regresar">Regresar</a>
+            </div>
+        </div>
+        <div class="row p-2">
+            <div class="col-12">
+                <h4 class="text-center">Titulo de la noticia</h4>
+                <div class="fst-italic text-justify">
+                    Texto de prueba en una imagen en la descripcion de la noticia
+                </div>
+                <img src="/img/utez1.png" class="img-fluid" alt="utez1">
+                <div class="row">
+                    <div class="col-6 text-muted text-center">
+                        27/09/2021
+                    </div>
+                    <div class="col-6 text-info text-center">
+                        #Hashtag
+                    </div>
+                </div>
+                <div class="fst-italic text-justify">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et quam eget lectus ultrices
+                    tristique
+                    in efficitur dolor. Duis faucibus, nisi ac molestie blandit, dui neque tristique elit, at maximus
+                    est erat
+                    id risus. Nam tincidunt bibendum nisi et imperdiet. Pellentesque suscipit, ante semper egestas
+                    volutpat,
+                    odio libero condimentum tellus, ac mattis arcu nulla sit amet nisl. Pellentesque varius erat nec
+                    pretium
+                    ultrices.
+                </div>
+                <h5 class="text-center my-2">Comentarios</h5>
+                <div id="comentarios" class="d-grid gap-2">
+                    <div class="form-group">
+                        <label for="comment">Comentar</label>
+                        <input type="text" class="form-control" id="comment">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-sm btn-info float-end">Comentar</button>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan Alvarez</h5>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan Alvarez</h5>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Juan Alvarez</h5>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
